@@ -1,0 +1,40 @@
+{
+  "name": "svd",
+  "homepage": "https://github.com/Aashish-design/real-estate/",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.22",
+    "gh-pages": "^6.3.0",
+    "lenis": "^1.3.11",
+    "lucide-react": "^0.544.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-masonry-css": "^1.0.16",
+    "react-router": "^7.9.3",
+    "react-router-dom": "^7.8.2",
+    "react-scroll": "^1.9.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "vite": "^5.4.8"
+  }
+}

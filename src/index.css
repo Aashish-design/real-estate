@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@font-face {
+  font-family: Cabinet;
+  src: url(assets/fonts/CabinetGrotesk-Variable.ttf);
+}
+@font-face {
+  font-family: Satoshi;
+  src: url(assets/fonts/Satoshi-Variable.ttf);
+}
